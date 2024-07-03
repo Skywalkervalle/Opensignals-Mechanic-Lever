@@ -1,0 +1,57 @@
+{
+    "textures": {
+        "blue": "opensignals:blocks/girlever/blue",
+        "blue_red": "opensignals:blocks/girlever/blue_red",
+        "spruce_planks": "opensignals:blocks/girlever/planks_spruce"
+    },
+    "models": {
+        "girlever/lever_change": {
+            "textures": [
+                {
+                    "blockstate": "with(LEVER_TYPE.SIGNAL) && hasandis(LEVER_POSITION)"
+                },
+                {
+                    "blockstate": "with(LEVER_TYPE.SWITCH) && hasandis(LEVER_POSITION)",
+                    "retexture": {
+                        "3": "blue"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_TYPE.SHUNTING) && hasandis(LEVER_POSITION)",
+                    "retexture": {
+                        "3": "blue_red"
+                    }
+                }
+            ]
+        },
+        "girlever/lever_normal": {
+            "textures": [
+                {
+                    "blockstate": "with(LEVER_TYPE.SIGNAL) && !hasandis(LEVER_POSITION)"
+                },
+                {
+                    "blockstate": "with(LEVER_TYPE.SWITCH) && !hasandis(LEVER_POSITION)",
+                    "retexture": {
+                        "3": "blue"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_TYPE.SHUNTING) && !hasandis(LEVER_POSITION)",
+                    "retexture": {
+                        "3": "blue_red"
+                    }
+                }
+            ]
+        },
+        "girlever/lever_ground": {
+            "textures": [
+                {
+                    "blockstate": "with(LEVER_GROUND.SPRUCE_PLANKS)",
+                    "retexture": {
+                        "0": "spruce_planks"
+                    }
+                }
+            ]
+        }
+    }
+}

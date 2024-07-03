@@ -1,0 +1,13 @@
+{
+    "tile.girsignalboxlever.name": "Signalbox Lever",
+    "block.opensignals.girsignalboxlever": "Signalbox Lever",
+    "property.lever_type.name": "Type",
+    "property.lever_type.desc": "Change the type of the lever between signal and switch lever",
+    "property.locked.name": "Locking",
+    "property.locked.desc": "Toggle locking of the lever",
+    "property.lever_position.name": "Lever position",
+    "property.lever_position.desc": "Toggle the lever position",
+    "property.auxiliary_locking.name": "auxiliary locking",
+    "property.auxiliary_locking.desc": "Toggle auxiliary locking",
+    "property.lever_ground.name": "Ground material"
+}

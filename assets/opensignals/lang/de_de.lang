@@ -1,0 +1,11 @@
+tile.girsignalboxlever.name=Stellwerkshebel
+block.opensignals.girsignalboxlever=Stellwerkshebel
+property.lever_type.name=Typ
+property.lever_type.desc=Ändere den Typ des Hebels zwischen Weiche und Signal
+property.locked.name=Sperre
+property.locked.desc=Ändere die Sperre des Hebels
+property.lever_position.name=Hebelposition
+property.lever_position.desc=Ändere die Hebelposition
+property.auxiliary_locking.name=Hilfssperre
+property.auxiliary_locking.desc=Ändere die Hilfssperre
+property.lever_ground.name=Bodenmaterial

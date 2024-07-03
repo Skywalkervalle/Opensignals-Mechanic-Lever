@@ -1,8 +1,0 @@
-{
-    "GIR_SIGNAL_LEVER": [
-        "OFF", "SIGNAL", "SWITCH", "SHUNTING"
-    ],
-    "GIR_LEVER_GROUND": [
-        "OFF", "SPRUCE_PLANKS"
-    ]
-}
