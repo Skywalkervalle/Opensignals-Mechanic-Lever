@@ -1,0 +1,54 @@
+{
+    "systemProperties": {
+        "placementToolName": "signplacementtool",
+        "defaultHeight": 1,
+        "canLink": true,
+        "redstoneOutputs": {
+            "!config(LEVER_TYPE.OFF) && config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
+        },
+        "remoteRedstoneOutputs": {
+            "!config(LEVER_TYPE.OFF) && config(LEVER_POSITION.TRUE)": "lever_position"
+        },
+        "customNameRenderHeight": 0.92,
+        "offsetX": -30,
+        "offsetY": -5,
+        "signScale": 0.5
+    },
+    "seProperties": [
+        {
+            "name": "lever_type",
+            "enumClass": "GIR_SIGNAL_LEVER",
+            "defaultState": "OFF",
+            "autoname": true,
+            "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "lever_position",
+            "defaultState": false,
+            "autoname": true,
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "dependencies": "!config(LEVER_TYPE.OFF)"
+        },
+        {
+            "name": "locked",
+            "defaultState": false,
+            "autoname": true,
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "dependencies": "!config(LEVER_TYPE.OFF)"
+        },
+        {
+            "name": "auxiliary_locking",
+            "defaultState": false,
+            "autoname": true,
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "dependencies": "!config(LEVER_TYPE.OFF)"
+        },
+        {
+            "name": "lever_ground",
+            "enumClass": "GIR_LEVER_GROUND",
+            "defaultState": "OFF",
+            "autoname": true,
+            "changeableStage": "GUISTAGE"
+        }
+    ]
+}
