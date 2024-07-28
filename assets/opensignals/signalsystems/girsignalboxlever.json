@@ -4,10 +4,10 @@
         "defaultHeight": 1,
         "canLink": true,
         "redstoneOutputs": {
-            "!config(LEVER_TYPE.OFF) && config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
+            "config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
         },
         "remoteRedstoneOutputs": {
-            "!config(LEVER_TYPE.OFF) && config(LEVER_POSITION.TRUE)": "lever_position"
+            "config(LEVER_POSITION.TRUE)": "lever_position"
         },
         "customNameRenderHeight": 0.92,
         "offsetX": -30,
