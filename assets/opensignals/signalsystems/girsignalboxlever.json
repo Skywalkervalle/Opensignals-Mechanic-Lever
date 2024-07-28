@@ -4,7 +4,7 @@
         "defaultHeight": 1,
         "canLink": true,
         "redstoneOutputs": {
-            "config(AUXILIARY_LOCKING.FALSE)": "lever_position"
+            "config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
         },
         "remoteRedstoneOutputs": {
             "config(LEVER_POSITION.TRUE)": "lever_position"
@@ -26,8 +26,7 @@
             "name": "lever_position",
             "defaultState": false,
             "autoname": true,
-            "changeableStage": "APISTAGE_NONE_CONFIG",
-            "dependencies": "!config(LEVER_TYPE.OFF)"
+            "changeableStage": "APISTAGE_NONE_CONFIG"
         },
         {
             "name": "locked",
