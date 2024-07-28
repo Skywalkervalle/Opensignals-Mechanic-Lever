@@ -4,10 +4,13 @@
         "defaultHeight": 1,
         "canLink": true,
         "redstoneOutputs": {
-            "!config(LEVER_TYPE.OFF) && config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
+            "config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
         },
         "remoteRedstoneOutputs": {
-            "!config(LEVER_TYPE.OFF) && config(LEVER_POSITION.TRUE)": "lever_position"
+            "config(LEVER_POSITION.TRUE)": "lever_position"
+        },
+        "signalHeights": {
+            "config(LEVER_TYPE.OFF)": 0
         },
         "customNameRenderHeight": 0.92,
         "offsetX": -30,
@@ -26,8 +29,7 @@
             "name": "lever_position",
             "defaultState": false,
             "autoname": true,
-            "changeableStage": "APISTAGE_NONE_CONFIG",
-            "dependencies": "!config(LEVER_TYPE.OFF)"
+            "changeableStage": "APISTAGE_NONE_CONFIG"
         },
         {
             "name": "locked",
