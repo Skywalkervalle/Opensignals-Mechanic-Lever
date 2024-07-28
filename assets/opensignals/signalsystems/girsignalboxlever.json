@@ -1,7 +1,7 @@
 {
     "systemProperties": {
         "placementToolName": "signplacementtool",
-        "defaultHeight": 2,
+        "defaultHeight": 1,
         "canLink": true,
         "redstoneOutputs": {
             "config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
@@ -9,8 +9,8 @@
         "remoteRedstoneOutputs": {
             "config(LEVER_POSITION.TRUE)": "lever_position"
         },
-        "renderHeights": {
-            "config(LEVER_TYPE.OFF)": -1
+        "signalHeights": {
+            "config(LEVER_TYPE.OFF)": 0
         },
         "customNameRenderHeight": 0.92,
         "offsetX": -30,
