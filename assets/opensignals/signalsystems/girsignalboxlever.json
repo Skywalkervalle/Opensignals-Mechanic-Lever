@@ -4,7 +4,7 @@
         "defaultHeight": 1,
         "canLink": true,
         "redstoneOutputs": {
-            "config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
+            "config(AUXILIARY_LOCKING.FALSE)": "lever_position"
         },
         "remoteRedstoneOutputs": {
             "config(LEVER_POSITION.TRUE)": "lever_position"
