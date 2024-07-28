@@ -1,7 +1,7 @@
 {
     "systemProperties": {
         "placementToolName": "signplacementtool",
-        "defaultHeight": 1,
+        "defaultHeight": 2,
         "canLink": true,
         "redstoneOutputs": {
             "config(LOCKED.FALSE) && config(AUXILIARY_LOCKING.FALSE)": "lever_position"
