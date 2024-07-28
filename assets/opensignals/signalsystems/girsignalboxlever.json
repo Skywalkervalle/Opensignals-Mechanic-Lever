@@ -9,6 +9,9 @@
         "remoteRedstoneOutputs": {
             "config(LEVER_POSITION.TRUE)": "lever_position"
         },
+        "renderHeights": {
+            "config(LEVER_TYPE.OFF)": -2
+        },
         "customNameRenderHeight": 0.92,
         "offsetX": -30,
         "offsetY": -5,
