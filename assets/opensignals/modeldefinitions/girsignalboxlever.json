@@ -2,6 +2,7 @@
     "textures": {
         "blue": "opensignals:blocks/girlever/blue",
         "blue_red": "opensignals:blocks/girlever/blue_red",
+        "black": "opensignals:blocks/girlever/black",
         "spruce_planks": "opensignals:blocks/girlever/planks_spruce"
     },
     "models": {
@@ -21,6 +22,12 @@
                     "retexture": {
                         "3": "blue_red"
                     }
+                },
+                {
+                    "blockstate": "with(LEVER_TYPE.SWITCH_BLACK) && !hasandis(LEVER_POSITION)",
+                    "retexture": {
+                        "3": "black"
+                    }
                 }
             ]
         },
@@ -39,6 +46,12 @@
                     "blockstate": "with(LEVER_TYPE.SHUNTING) && !hasandis(LEVER_POSITION)",
                     "retexture": {
                         "3": "blue_red"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_TYPE.SWITCH_BLACK) && !hasandis(LEVER_POSITION)",
+                    "retexture": {
+                        "3": "black"
                     }
                 }
             ]

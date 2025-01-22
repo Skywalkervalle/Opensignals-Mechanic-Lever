@@ -1,6 +1,6 @@
 {
     "GIR_SIGNAL_LEVER": [
-        "OFF", "SIGNAL", "SWITCH", "SHUNTING"
+        "OFF", "SIGNAL", "SWITCH", "SWITCH_BLACK", "SHUNTING"
     ],
     "GIR_LEVER_GROUND": [
         "OFF", "SPRUCE_PLANKS"
