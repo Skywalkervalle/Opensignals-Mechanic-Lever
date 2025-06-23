@@ -24,7 +24,7 @@
                     }
                 },
                 {
-                    "blockstate": "with(LEVER_TYPE.SWITCH_BLACK) && !hasandis(LEVER_POSITION)",
+                    "blockstate": "with(LEVER_TYPE.SWITCH_BLACK) && hasandis(LEVER_POSITION)",
                     "retexture": {
                         "3": "black"
                     }
