@@ -1,6 +1,5 @@
 {
-	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by SkywalkerValle",
 	"textures": {
 		"2": "opensignals:blocks/girlever/glass",
 		"5": "opensignals:blocks/girlever/red",
