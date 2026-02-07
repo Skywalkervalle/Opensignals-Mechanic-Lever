@@ -47,14 +47,14 @@
                 }
             ]
         },
-        "girlever/pathwaylever_nomal":{
+        "girlever/pathway_lever_nomal":{
             "textures": [
                 {
                     "blockstate": "with(LEVER_TYPE.PATHWAYLEVER) && !hasandis(LEVER_POSITION)"
                 }
             ]
         },
-        "girlever/pathwaylever_change":{
+        "girlever/pathway_lever_change":{
             "textures": [
                 {
                     "blockstate": "with(LEVER_TYPE.PATHWAYLEVER) && hasandis(LEVER_POSITION)"
