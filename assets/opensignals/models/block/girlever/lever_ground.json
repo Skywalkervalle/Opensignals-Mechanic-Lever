@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "opensignals:blocks/girlever/planks_spruce",
-		"particle": "opensignals:blocks/girlever/planks_spruce"
+		"particle": "opensignals:blocks/girlever/grounds/planks_spruce"
 	},
 	"elements": [
 		{

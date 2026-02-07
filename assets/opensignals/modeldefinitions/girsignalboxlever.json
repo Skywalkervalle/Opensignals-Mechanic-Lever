@@ -2,7 +2,11 @@
     "textures": {
         "blue": "opensignals:blocks/girlever/blue",
         "blue_red": "opensignals:blocks/girlever/blue_red",
-        "spruce_planks": "opensignals:blocks/girlever/planks_spruce"
+        "spruce_planks": "opensignals:blocks/girlever/grounds/planks_spruce",
+        "acacia_planks": "opensignals:blocks/girlever/grounds/planks_acacia",
+        "oak_planks": "opensignals:blocks/girlever/grounds/planks_oak",
+        "birch_planks": "opensignals:blocks/girlever/grounds/planks_birch",
+        "jungle_planks": "opensignals:blocks/girlever/grounds/planks_jungle"
     },
     "models": {
         "girlever/lever_change": {
@@ -63,6 +67,30 @@
                     "blockstate": "with(LEVER_GROUND.SPRUCE_PLANKS)",
                     "retexture": {
                         "0": "spruce_planks"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_GROUND.OAK_PLANKS)",
+                    "retexture": {
+                        "0": "oak_planks"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_GROUND.BIRCH_PLANKS)",
+                    "retexture": {
+                        "0": "birch_planks"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_GROUND.JUNGLE_PLANKS)",
+                    "retexture": {
+                        "0": "jungle_planks"
+                    }
+                },
+                {
+                    "blockstate": "with(LEVER_GROUND.ACACIA_PLANKS)",
+                    "retexture": {
+                        "0": "acacia_planks"
                     }
                 }
             ]
